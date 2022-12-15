@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -x
 export TOOLS="bash less vim curl aws-cli yq jq screen mandoc man-pages busybox-extras iproute2"
 
 # install packages
