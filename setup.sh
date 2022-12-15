@@ -26,3 +26,5 @@ cp conf/.screenrc ~/.screenrc
 cp conf/.vimrc ~/.vimrc
 ## bash
 cp conf/.bashrc ~/.bashrc
+
+exec /bin/bash

@@ -8,5 +8,6 @@ alias gds="git diff --staged"
 alias gdw="git diff --word-diff"
 alias glols="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat"
 
+export SHELL=/bin/bash
 export EDITOR=vim
 echo "export GITHUB_TOKEN="
