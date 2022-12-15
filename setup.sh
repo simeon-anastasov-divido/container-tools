@@ -4,11 +4,11 @@ export TOOLS="bash less vim curl aws-cli yq jq screen mandoc man-pages busybox-e
 
 # install packages
 
-if [[ $(which apk) -eq 0 ]]; then
+if [ -n $(which apk) ]; then
   apk update && apk add $TOOLS 
 fi
 
-if [[ $(which apt) -eq 0 ]]; then
+if [ -n $(which apt) ]; then
   apt upgrade && apt update && apt install $TOOLS 
 fi
 
